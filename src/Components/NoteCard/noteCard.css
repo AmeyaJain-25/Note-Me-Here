@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Cairo&family=Concert+One&family=Lora:ital,wght@1,500&family=Montserrat+Alternates&family=Playfair+Display&family=Titillium+Web&display=swap');
+
+:root{
+    --font-1: 'Concert One', cursive;
+    --font-2: 'Lora', serif;
+    --font-3: 'Montserrat Alternates', sans-serif;
+    --font-4: 'Playfair Display', serif;
+    --font-5: 'Titillium Web', sans-serif;
+    --font-6: 'Alegreya', serif;
+    --font-7: 'Cairo', sans-serif;
+}
+
+
+
+.noteCardContainer{
+    width: 250px;
+    min-height: 100px;
+    height: auto;
+    background-color: #E0F450;
+    margin: 1vmin;
+    padding: 2vmin;
+    text-align: left;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.notePara{
+    font-size: 2em;
+    font-family: var(--font-3);
+    color: green;
+}
