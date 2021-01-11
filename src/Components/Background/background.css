@@ -1,111 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Cairo&family=Concert+One&family=Lora:ital,wght@1,500&family=Montserrat+Alternates&family=Playfair+Display&family=Titillium+Web&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Cairo&family=Concert+One&family=Lora:ital,wght@1,500&family=Montserrat+Alternates&family=Playfair+Display&family=Titillium+Web&display=swap");
 
-:root{
-    --font-1: 'Concert One', cursive;
-    --font-2: 'Lora', serif;
-    --font-3: 'Montserrat Alternates', sans-serif;
-    --font-4: 'Playfair Display', serif;
-    --font-5: 'Titillium Web', sans-serif;
-    --font-6: 'Alegreya', serif;
-    --font-7: 'Cairo', sans-serif;
+:root {
+  --font-1: "Concert One", cursive;
+  --font-2: "Lora", serif;
+  --font-3: "Montserrat Alternates", sans-serif;
+  --font-4: "Playfair Display", serif;
+  --font-5: "Titillium Web", sans-serif;
+  --font-6: "Alegreya", serif;
+  --font-7: "Cairo", sans-serif;
 }
 
-
-
-
-
-
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-
-.logo{
-    background-image: url(./NoteMeLogo.png);
-    background-size: 100px;
-    width: 100px;
-    height: 100px;
-    margin-left: 25vmin;
+.logo {
+  background-image: url(./NoteMeLogo.png);
+  background-size: 100px;
+  width: 100px;
+  height: 100px;
+  margin-left: 25vmin;
 }
 
-
-.background-container{
-    width: 100%;
-    min-height: 100vh;
-    padding: 2vmin;
-    background-color: #2CF37D;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.background-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 2vmin;
+  background-color: #2cf37d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.title{
-    font-size: 3em;
-    font-weight: 300;
-    margin: 2vmin;
+.title {
+  font-size: 3em;
+  font-weight: 300;
+  margin: 2vmin;
 }
 
-.title1{
-    color: orangered;
+.title1 {
+  color: orangered;
 }
 
-.title2{
-    color: steelblue;
+.title2 {
+  color: steelblue;
 }
 
-.title3{
-    color: wheat;
+.title3 {
+  color: wheat;
 }
 
-.input-container{
-    width: 30vw;
-    height: auto;
-    margin: 5px;
-    padding: 20px;
-    border-radius: 8px;
-    background-color: #CF6C46;
-    display: flex;
+.input-container {
+  width: 30vw;
+  height: auto;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #cf6c46;
+  display: flex;
 }
 
-
-
-.input-text{
-    width: 100%;
-    height: 50px;
-    border-radius: 6px;
-    border: 1.5px solid brown;
-    font-size: 2em;
-    padding: 2vmin;
-    margin-right: 5px;
-    font-family: var(--font-5);
+.input-text {
+  width: 100%;
+  height: 50px;
+  border-radius: 6px;
+  outline: 0;
+  border: 1.5px solid brown;
+  font-size: 2em;
+  padding: 2vmin;
+  caret-color: #09e783;
+  margin-right: 5px;
+  font-family: var(--font-5);
 }
 
-.addBtn{
-    font-size: 3em;
-    font-weight: bold;
-    background-color: #01C46B;
-    border: none;
-    border-radius: 50%;
-    padding: 0 2vmin;
-    margin-left: 15px;
-    color: yellow;
-    cursor: pointer;
+.addBtn {
+  font-size: 3em;
+  font-weight: bold;
+  background-color: #01c46b;
+  border: none;
+  outline: 0;
+  border-radius: 50%;
+  padding: 0 2vmin;
+  margin-left: 15px;
+  color: yellow;
+  cursor: pointer;
 }
 
-.addBtn:hover{
-    background-color: #055833;
+.addBtn:hover {
+  background-color: #055833;
 }
 
-.bottom-part{
-    margin-top: 10vmin;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;    
+.bottom-part {
+  margin-top: 10vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
