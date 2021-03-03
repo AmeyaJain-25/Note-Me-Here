@@ -21,7 +21,6 @@ class Background extends React.Component {
     if (this.state.currentNote == "") {
       return;
     }
-
     const updateNoteArray = [...this.state.note];
     updateNoteArray.push(this.state.currentNote);
     console.log(this.state.updateNoteArray);
